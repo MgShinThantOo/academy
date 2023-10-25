@@ -134,7 +134,7 @@ h1,h4{
 
 /* home-screen */
 .home{
-    background-image: url('../image/home-bg.png');
+    background-image: url('/image/home-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -166,7 +166,7 @@ h1,h4{
 
 /* about screen  */
 .about{
-    background-image: url('../image/about-bg.png');
+    background-image: url('/image/about-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -201,7 +201,7 @@ h1,h4{
 
 /* info screen  and ads screen */
 .info,.ads{
-    background-image: url('../image/second\ bg.png');
+    background-image: url('/image/second\ bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -246,7 +246,7 @@ h1,h4{
 
 /* inquiry */
 .inquiry{
-    background-image: url('../image/about-bg.png');
+    background-image: url('/image/about-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -279,7 +279,7 @@ h1,h4{
 
 /* contact us  */
 .contact{
-    background-image: url('../image/home-bg.png');
+    background-image: url('/image/home-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
