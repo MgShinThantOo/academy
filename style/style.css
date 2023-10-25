@@ -133,8 +133,7 @@ h1,h4{
 }
 
 /* home-screen */
-.home{
-    background-image: url('../image/home-bg.png');
+.home,.about,.info,.ads,.inquiry{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -165,12 +164,6 @@ h1,h4{
 
 
 /* about screen  */
-.about{
-    background-image: url('../image/about-bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 .about .img-container img{
     width: 90%;
     border-radius: 20px;
@@ -200,12 +193,6 @@ h1,h4{
 }
 
 /* info screen  and ads screen */
-.info,.ads{
-    background-image: url('../image/second\ bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 .info button.btn,.ads button.btn{
     background-color: var(--white);
     transition: 0.3s ease-in-out;
@@ -244,13 +231,6 @@ h1,h4{
     transform: translateY(-5px);
 }
 
-/* inquiry */
-.inquiry{
-    background-image: url('../image/about-bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 
 /* feed back  */
 .feed-back .text{
