@@ -322,4 +322,7 @@ h1,h4{
         padding: 5px 15px;
         font-size: 18px !important;
     }
+    .footer h5{
+        font-size: 15px !important;
+    }
 }
