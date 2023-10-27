@@ -97,6 +97,19 @@ h1,h4{
     color: var(--white) !important;
 }
 
+.btn-outline-secondary{
+    background-color: var(--white) !important;
+    border: 1.5px solid var(--white) !important;
+    transition: 0.3s ease-in-out;
+}
+.btn-outline-secondary:hover{
+    background-color: var(--primary) !important; 
+    transform: translateY(-5px);
+}
+.btn-outline-secondary:hover a{
+    color: var(--white) !important;
+}
+
 /* scroll-up  */
 .scroll-up{
     position: fixed;
@@ -116,6 +129,8 @@ h1,h4{
     width: 100%;
     background-color: var(--white)!important;
     z-index: 10000;
+    margin: 0;
+    padding: 0;
 }
 .nav-item a{
     font-size: 18px !important;
@@ -133,7 +148,7 @@ h1,h4{
 }
 
 /* home-screen */
-.home,.about,.info,.ads,.inquiry{
+.home,.about,.info,.ads,.inquiry,.contact{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -169,7 +184,7 @@ h1,h4{
     border-radius: 20px;
     transition: 0.3s ease-in-out;
 }
-.about .container,.courses .container{
+.about .container,.courses .container,.learning .container{
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
@@ -193,23 +208,6 @@ h1,h4{
 }
 
 /* info screen  and ads screen */
-.info button.btn,.ads button.btn{
-    background-color: var(--white);
-    transition: 0.3s ease-in-out;
-}
-.info button.btn:hover,.ads button.btn:hover{
-    background-color: var(--primary);
-    font-weight: bold;
-    border: 1px solid var(--white);
-    transform: scale(1.05);
-}
-.info button.btn a,.ads button.btn a{
-    font-size: 18px !important;
-    color: var(--primary);
-}
-.info button.btn:hover a,.ads button.btn:hover a{
-    color: var(--white);
-}
 .info img,.ads img{
     border-radius: 20px;
     transition: 0.3s ease-in-out;
@@ -258,12 +256,6 @@ h1,h4{
 }
 
 /* contact us  */
-.contact{
-    background-image: url('../image/home-bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 .contact .icon{
     display: flex;
     justify-content: center;
@@ -317,6 +309,12 @@ h1,h4{
 }
 
 @media (max-width : 576px) {
+    h1{
+        font-size: 30px !important;
+    }
+    h4{
+        font-size: 22px !important;
+    }
     .home .text-container h1{
         font-size: 32px !important;
     }

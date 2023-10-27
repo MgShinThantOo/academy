@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="./image/1.svg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
@@ -22,12 +23,12 @@
         </a>
       </div>
 
-      <nav class="navbar navbar-expand-lg navbar-light shadow" id="navbar">
+      <nav class="navbar navbar-expand-lg navbar-light shadow" id="navbar" data-aos="fade-down" data-aos-delay="300">
         <div class="container">
           <a class="navbar-brand" href="#home">
             <div class="d-flex justify-content-center align-items-center gap-2">
               <img src="./image/1.svg" alt="" class="rounded-circle" style="width: 45px;height: 45px;">
-              <h5 class="fw-bold m-0 p-0">Title Company</h5>
+              <h6 class="fw-bold m-0 p-0">Title Company</h6>
             </div>
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,10 +59,10 @@
           <div class="min-vh-100 d-flex justify-content-center align-items-center flex-wrap py-5 p-lg-0">
             <div class="col-12 col-lg-8">
               <div class="text-container text-center text-lg-start">
-                <h1>Grow your skills,</h1>
-                <h1 class="text-primary">define your future.</h1>
-                <p class="col-12 col-lg-8 my-4">Presenting Academy, the tech school of the future. We teach you the right skills to be prepared for tomorrow.</p>
-                <div>
+                <h1 data-aos="zoom-in-up" data-aos-delay="500">Grow your skills,</h1>
+                <h1 class="text-primary" data-aos="zoom-in-up" data-aos-delay="600">define your future.</h1>
+                <p class="col-12 col-lg-8 my-4" data-aos="zoom-in-up" data-aos-delay="700">Presenting Academy, the tech school of the future. We teach you the right skills to be prepared for tomorrow.</p>
+                <div data-aos="zoom-in-up" data-aos-delay="800">
                   <button class="btn btn-primary me-1 me-sm-3 mt-2 home-btn">
                     <a href="" class="text-white">Courses</a>
                   </button>
@@ -71,7 +72,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-lg-4" data-aos="zoom-in-up" data-aos-delay="1000">
               <div class="img-container mt-4 mt-lg-0 text-center text-lg-start">
                 <img src="./image/home.jpeg" alt="" class="img-fluid shadow">
               </div>
@@ -83,35 +84,37 @@
       <article class="about" id="about" style="background-image: url('./image/about-bg.png');">
         <div class="container py-5">
           <div class="d-flex justify-content-center align-items-start flex-wrap py-5">
-            <div class="col-12 col-lg-7">
+            <div class="col-12 col-lg-7" data-aos="zoom-in-up" data-aos-delay="300">
               <div class="img-container text-center text-lg-start">
                 <img src="./image/about.jpeg" alt="" class="shadow">
               </div>
             </div>
             <div class="col-12 col-lg-5">
               <div class="text-container mt-4 mt-lg-0 text-center text-lg-start">
-                <h1 class="mb-3">About Academy</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa aliquam autem ab repudiandae in veniam ea, quos reprehenderit delectus officia? Cum perferendis saepe repudiandae omnis laudantium voluptatum totam nihil nesciunt?</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa aliquam autem ab repudiandae in veniam ea,</p>
-                <button class="btn btn-outline-primary mt-3">
-                  <a href="#info">
-                    SEE MORE
-                    <i class="bi bi-arrow-right ms-2"></i>
-                  </a>
-                </button>
+                <h1 class="mb-3" data-aos="zoom-in-up" data-aos-delay="500">About Academy</h1>
+                <p data-aos="zoom-in-up" data-aos-delay="600">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa aliquam autem ab repudiandae in veniam ea, quos reprehenderit delectus officia? Cum perferendis saepe repudiandae omnis laudantium voluptatum totam nihil nesciunt?</p>
+                <p data-aos="zoom-in-up" data-aos-delay="700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa aliquam autem ab repudiandae in veniam ea,</p>
+                <div class="" data-aos="zoom-in-up" data-aos-delay="800">
+                  <button class="btn btn-outline-primary mt-3">
+                    <a href="#info">
+                      SEE MORE
+                      <i class="bi bi-arrow-right ms-2"></i>
+                    </a>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </article>
 
-      <article class="courses py-5" id="courses">
+      <article class="courses" id="courses">
         <div class="container py-5">
           <div class="py-5">
-            <h1>Our Courses</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat feugiat congue viverra facilisis.</p>
-            <div class="row mt-5">
-              <div class="col-12 col-lg-4 mb-3">
+            <h1 data-aos="zoom-in-up" data-aos-delay="300">Our Courses</h1>
+            <p data-aos="zoom-in-up" data-aos-delay="400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat feugiat congue viverra facilisis.</p>
+            <div class="row mt-3">
+              <div class="col-12 col-lg-4 mb-3" data-aos="zoom-in-up" data-aos-delay="500">
                 <div class="card shadow">
                   <div class="d-flex flex-wrap">
                     <div class="col-12 col-md-4 col-lg-12 overflow-hidden">
@@ -137,7 +140,7 @@
                   </div>       
                 </div>
               </div>
-              <div class="col-12 col-lg-4 mb-3">
+              <div class="col-12 col-lg-4 mb-3" data-aos="zoom-in-up" data-aos-delay="700">
                 <div class="card shadow">
                   <div class="d-flex flex-wrap">
                     <div class="col-12 col-md-4 col-lg-12 overflow-hidden">
@@ -163,7 +166,7 @@
                   </div>       
                 </div>
               </div>
-              <div class="col-12 col-lg-4 mb-3">
+              <div class="col-12 col-lg-4 mb-3" data-aos="zoom-in-up" data-aos-delay="900">
                 <div class="card shadow">
                   <div class="d-flex flex-wrap">
                     <div class="col-12 col-md-4 col-lg-12 overflow-hidden">
@@ -194,14 +197,14 @@
         </div>
       </article>
 
-      <article class="learning-method py-5">
+      <article class="learning-method">
         <div class="container py-5">
           <div class="py-5">
-            <h1 class="text-center">Choose Your Path</h1>
-            <p class="text-center">Choose how would you like to learn on Academy. You can study full or part-time in our local programs, or remotely with our online courses.</p>
+            <h1 class="text-center" data-aos="zoom-in-up" data-aos-delay="300">Choose Your Path</h1>
+            <p class="text-center" data-aos="zoom-in-up" data-aos-delay="400">Choose how would you like to learn on Academy. You can study full or part-time in our local programs, or remotely with our online courses.</p>
             <div class="card-container">
               <div class="row">
-                <div class="col-12 col-md-4 mt-5">
+                <div class="col-12 col-md-4 mt-3" data-aos="zoom-in-up" data-aos-delay="500">
                   <div class="text-center py-3">
                     <img src="./image/full-time.svg" alt="" class="img-fluid">
                     <h4 class="mt-3 p-0">Full-Time</h4>
@@ -209,7 +212,7 @@
                     <button class="btn btn-outline-primary px-4 py-2 mt-2"><a href="">View Courses</a></button>
                   </div>
                 </div>
-                <div class="col-12 col-md-4 mt-5">
+                <div class="col-12 col-md-4 mt-3" data-aos="zoom-in-up" data-aos-delay="700">
                   <div class="text-center py-3">
                     <img src="./image/part-time.svg" alt="" class="img-fluid">
                     <h4 class="mt-3 p-0">Part-Time</h4>
@@ -217,7 +220,7 @@
                     <button class="btn btn-outline-primary px-4 py-2 mt-2"><a href="">View Courses</a></button>
                   </div>
                 </div>
-                <div class="col-12 col-md-4 mt-5">
+                <div class="col-12 col-md-4 mt-3" data-aos="zoom-in-up" data-aos-delay="900">
                   <div class="text-center py-3">
                     <img src="./image/online.svg" alt="" class="img-fluid">
                     <h4 class="mt-3 p-0">Online</h4>
@@ -231,22 +234,22 @@
         </div>
       </article>
 
-      <article class="info py-5" id="info" style="background-image: url('./image/second\ bg.png');">
+      <article class="info" id="info" style="background-image: url('./image/second\ bg.png');">
         <div class="container py-5">
           <div class="row py-5 align-items-center">
             <div class="col-12 col-lg-6 text-white">
-              <h1 class="text-white text-center text-lg-start">
+              <h1 class="text-white text-center text-lg-start" data-aos="zoom-in-up" data-aos-delay="300">
                 Academy helped me to learn the skills to land my dream job.
               </h1>
-              <p class="my-3 text-center text-lg-start">
+              <p class="my-3 text-center text-lg-start" data-aos="zoom-in-up" data-aos-delay="400">
                 “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio quisque integer elementum egestas aliquet tincidunt. Nunc mauris enim tortor libero viverra aenean. Portitor semper facilisi velit.”
               </p>
-              <div class=" text-center text-lg-start">
-                <button class="btn mt-4 px-3 py-2"><a href="#" class="">Button Someone</a></button>
+              <div class=" text-center text-lg-start"  data-aos="zoom-in-up" data-aos-delay="500">
+                <button class="btn btn-outline-secondary mt-4 px-3 py-2"><a href="#" class="">Button Someone</a></button>
               </div>
             </div>
             <div class="col-12 col-lg-6">
-              <img src="./image/info.jpg" alt="" class="img-fluid shadow mt-5 mt-lg-0">
+              <img src="./image/info.jpg" alt="" class="img-fluid shadow mt-5 mt-lg-0" data-aos="zoom-in-up" data-aos-delay="700">
             </div>
           </div>
         </div>
@@ -257,22 +260,22 @@
           <div class="py-5">
             <div class="row mb-3">
               <div class="col-12 col-lg-6 text-center text-lg-start">
-                <h1>Why Learning With us?</h1>
+                <h1 data-aos="zoom-in-up" data-aos-delay="300">Why Learning With us?</h1>
               </div>
-              <div class="col-12 col-lg-6 text-center text-lg-end mt-3 mt-lg-0">
+              <div class="col-12 col-lg-6 text-center text-lg-end mt-3 mt-lg-0" data-aos="zoom-in-up" data-aos-delay="400">
                 <button class="btn px-3 py-2"><a href="#courses" class="text-white">Our Courses</a></button>
               </div>
             </div>
             <div class="d-flex flex-wrap">
               <div class="col-12 col-lg-5">
-                <div class="d-flex justify-content-center align-items-start gap-4 mt-5">
+                <div class="d-flex justify-content-center align-items-start gap-4 mt-5" data-aos="zoom-in-up" data-aos-delay="600">
                   <img src="./image/1.svg" alt="">
                   <div>
                     <h4>World-Class Teachers</h4>
                     <p class="mt-3">Lorem ipsum dolor sit amet, consecteturirem adipiscing elit. Volutpat quis molestie tortorerm, gravida a aenean neque. Placerat</p>
                   </div>
                 </div>
-                <div class="d-flex justify-content-center align-items-start gap-4 mt-5">
+                <div class="d-flex justify-content-center align-items-start gap-4 mt-5" data-aos="zoom-in-up" data-aos-delay="700">
                   <img src="./image/2.svg" alt="">
                   <div>
                     <h4>World-Class Teachers</h4>
@@ -280,18 +283,18 @@
                   </div>
                 </div>
               </div>
-              <div class="col-2 d-none d-lg-block">
+              <div class="col-2 d-none d-lg-block"  data-aos="fade-in" data-aos-delay="1000">
                 <div class="line" style="width: 2px; height: 100%;background-color: rgba(0, 0, 0, 0.2);margin: 0 auto;"></div>
               </div>
               <div class="col-12 col-lg-5">
-                <div class="d-flex justify-content-center align-items-start gap-4 mt-5">
+                <div class="d-flex justify-content-center align-items-start gap-4 mt-5" data-aos="zoom-in-up" data-aos-delay="800">
                   <img src="./image/3.svg" alt="">
                   <div>
                     <h4>World-Class Teachers</h4>
                     <p class="mt-3">Lorem ipsum dolor sit amet, consecteturirem adipiscing elit. Volutpat quis molestie tortorerm, gravida a aenean neque. Placerat</p>
                   </div>
                 </div>
-                <div class="d-flex justify-content-center align-items-start gap-4 mt-5">
+                <div class="d-flex justify-content-center align-items-start gap-4 mt-5" data-aos="zoom-in-up" data-aos-delay="900">
                   <img src="./image/4.svg" alt="">
                   <div>
                     <h4>World-Class Teachers</h4>
@@ -304,9 +307,9 @@
         </div>
       </article>
 
-      <article class="feed-back py-5">
+      <article class="feed-back">
         <div class="container py-5">
-          <h1 class="text-center mb-5">Our Students REVIEW</h1>
+          <h1 class="text-center mb-5"  data-aos="zoom-in-up" data-aos-delay="300">Our Students REVIEW</h1>
           <div class="owl-carousel owl-theme">
             <div class="item">
               <h6 class="text">"Lorem ipsum dolor sit amet consectetur adipisicing elit."</h6>
@@ -357,23 +360,23 @@
         </div>
       </article>
 
-      <article class="ads py-5">
+      <article class="ads" style="background-image: url('./image/second\ bg.png');">
         <div class="container py-5">
           <div class="row py-5 align-items-center">
             <div class="col-12 col-lg-6 text-white">
-              <h1 class="text-white text-center text-lg-start">
+              <h1 class="text-white text-center text-lg-start" data-aos="zoom-in-up" data-aos-delay="300">
                 Grow your career!
               </h1>
-              <h1 class="text-white text-center text-lg-start">Start learning with Academy.</h1>
-              <p class="my-3 text-center text-lg-start">
+              <h1 class="text-white text-center text-lg-start" data-aos="zoom-in-up" data-aos-delay="400">Start learning with Academy.</h1>
+              <p class="my-3 text-center text-lg-start" data-aos="zoom-in-up" data-aos-delay="500">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio quisque integer elementum egestas aliquet tincidunt.
               </p>
-              <div class="text-center text-lg-start">
-                <button class="btn mt-4 px-3 py-2"><a href="#courses" class="">Our Courses</a></button>
+              <div class="text-center text-lg-start"data-aos="zoom-in-up" data-aos-delay="600">
+                <button class="btn btn-outline-secondary mt-4 px-3 py-2" ><a href="#courses" class="">Our Courses</a></button>
               </div>
             </div>
             <div class="col-12 col-lg-6">
-              <img src="./image/Group 21.svg" alt="" class="img-fluid mt-5 mt-lg-0">
+              <img src="./image/Group 21.svg" alt="" class="img-fluid mt-5 mt-lg-0" data-aos="zoom-in-up" data-aos-delay="800">
             </div>
           </div>
         </div>
@@ -384,10 +387,10 @@
           <div class="row justify-content-center align-items-center py-5">
             <div class="col-12 col-md-6">
               <div>
-                <h3 class="text-primary fw-bold">Get in Touch</h3>
-                <p>To contact us by phone, please dial +959 982232373. To contact us by email, please use the contact form.</p>
+                <h3 class="text-primary fw-bold"data-aos="zoom-in-up" data-aos-delay="300">Get in Touch</h3>
+                <p data-aos="zoom-in-up" data-aos-delay="400">To contact us by phone, please dial +959 982232373. To contact us by email, please use the contact form.</p>
               </div>
-              <div class="px-3 py-4 rounded-3 shadow">
+              <div class="px-3 py-4 rounded-3 shadow" data-aos="zoom-in-up" data-aos-delay="500">
                 <form action="">
                   <div class="mb-3">
                     <label for="name" class="form-label fw-bold text-secondary">Name</label>
@@ -407,14 +410,14 @@
                 </form>
               </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-6 col-xxl-4 d-none d-md-block">
+            <div class="col-12 col-md-6 col-lg-6 col-xxl-4 d-none d-md-block" data-aos="zoom-in-up" data-aos-delay="700">
               <img src="./image/Service 24_7-pana.svg" alt="" class="img-fluid">
             </div>
           </div>
         </div>
       </article>
 
-      <article class="contact" id="contact">
+      <article class="contact" id="contact" style="background-image: url('./image/home-bg.png');" data-aos="fade-down" data-aos-delay="300">
         <div class="container py-5">
           <div class="d-flex justify-content-center align-items-start flex-wrap">
             <div class="col-12 col-md-4">
@@ -460,7 +463,7 @@
         </div>
       </article>
 
-      <article class="footer">
+      <article class="footer" data-aos="fade-down" data-aos-delay="500">
         <div class="container-fluid bg-primary">
           <div class="py-2">
             <h5 class="text-center p-0 m-0">
@@ -476,10 +479,14 @@
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./app.js"></script> 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
     <script>
+
+      AOS.init();
+
       var prevScrollpos = window.pageYOffset;
       window.onscroll = function() {
         var currentScrollPos = window.pageYOffset;
